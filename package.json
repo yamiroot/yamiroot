@@ -1,0 +1,35 @@
+{
+  "name": "yamiroot",
+  "version": "1.0.0",
+  "description": "personal site web",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "test --coverage",
+    "start": "serve ./src",
+    "htmlhint": "htmlhint src/*.html",
+    "stylelint": "stylelint --aei src/**/*.css",
+    "eslint": "eslint --ext .js src/",
+    "pretest": "npm run htmlhint && npm run eslint && npm run stylelint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/yamiroot/root"
+  },
+  "keywords": [
+    "site",
+    "personal",
+    "web",
+    "yamiroot"
+  ],
+  "author": "@yamiroot",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^11.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "htmlhint": "^0.14.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-recommended": "^5.0.0"
+  }
+}
