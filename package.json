@@ -24,6 +24,7 @@
   "author": "@yamiroot",
   "license": "MIT",
   "dependencies": {
+    "aos": "^2.3.4",
     "serve": "^11.3.2"
   },
   "devDependencies": {
