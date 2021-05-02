@@ -8,7 +8,6 @@
 }
 
 body {
-    background: #ffffff;
     font-family: 'Neucha', cursive !important;
     color: black;
     margin: 0;
@@ -20,15 +19,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: #555678;
+    background: var(--bg-primary);
 }
 
 body::-webkit-scrollbar-thumb {
-    background: #a9f1af;
-}
-
-main {
-    padding: 1rem;
+    background: var(--bg-secondary);
 }
 
 header {
@@ -39,114 +34,33 @@ header {
 
 #navbar-nav {
     list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-}
-
-.fa-primary {
-    background: #990899;
-}
-
-
-.link-text {
-    display: none;
-    margin-left: 1rem;
-}
-
-.nav-link {
-    text-decoration: none;
-}
-
-/*.navbar {
-    position: fixed;
-    background: var(--bg-primary);
-    transition: width 200ms ease;
-}
-
-.navbar-nav {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.nav-item {
-    width: 100%;
-}
-
-.nav-item:last-child {
-    margin-top: auto;
-}
-
-.nav-link {
-    display: flex;
-    align-items: center;
-    height: 5rem;
-    color: var(--text-primary);
-    text-decoration: none;
-    filter: grayscale(100%) opacity(0.7);
-    transition: var(--transition-speed);
 }
 
 .link-text {
     display: none;
-    margin-left: 1rem;
 }
 
-.nav-link i {
-    min-width: 2rem;
-    margin: 0 1.5rem;
+.nav-link {
+    text-decoration: none;
+    filter: grayscale(100%) opacity(0.8);
 }
 
-.navbar:hover {
-    width: 16rem;
-}
-
-.navbar:hover .link-text {
-    display: block;
-}
-
-
-
-.fa-secondary {
-    color: aqua;
-}
-
-.fa-primary, .fa-secondary {
-    transition: var(--transition-speed);
+.nav-link span, .nav-link i {
+    color: #fff;
 }
 
 .nav-link:hover {
-    filter: grayscale(0%) opacity(1);
     background: var(--bg-secondary);
+    filter: grayscale(0%) opacity(1);
 }
 
-.logo {
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
-    text-align: center;
-    color: var(--text-secondary);
-    background: var(--bg-primary);
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    letter-spacing: 0.3ch;
-    width: 100%;
+.nav-link:hover span, .nav-link:hover i {
+    color: #000000;
 }
-
-.logo i {
-    transform: rotate(0deg);
-    transition: transform var(--transition-speed);
-}*/
-
-
 
 
 /* Small screens */
+
 @media only screen and (max-width: 600px) {
     main {
         margin: 0;
@@ -164,7 +78,10 @@ header {
 
     #navbar, #navbar-nav, .nav-link {
         width: 100%;
-        height: 100%;
+    }
+
+    #navbar, #navbar-nav, .nav-link, .nav-item {
+        height: 100%;    
     }
 
     #navbar {
@@ -173,7 +90,6 @@ header {
 
     .nav-item {
         width: 20%;
-        height: 100%;    
     }
 
     .nav-link {
@@ -181,27 +97,17 @@ header {
         filter: grayscale(100%) opacity(0.7);
         transition: var(--transition-speed);
     }
-    
-    .nav-item:hover {
-        background: cornflowerblue;
-    }
-
-    .nav-link:hover {
-        color: #ffffff;
-        filter: grayscale(0%) opacity(1);
-    }
 }
 
 /* Large screens */
+
 @media only screen and (min-width: 600px) {
     header {
         left: 0;
         top: 0;
         width: 5rem;
         height: 100vh;
-        display: flex;
         justify-content: space-between;
-        flex-direction: column;
     }
 
     header:hover {
@@ -210,6 +116,14 @@ header {
 
     header:hover .link-text {
         display: inline;
+    }
+
+    header:hover .nav-link i {
+        margin-left: 2rem;
+    }
+
+    header:hover .link-text {
+        margin: auto;
     }
 
     main {
@@ -223,35 +137,37 @@ header {
 
     #navbar {
         height: 50%;
-        padding: 0;
-        margin: 0;
     }
 
     #navbar-nav {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        height: 100%;       
+        justify-content: center; 
+    }
+
+    header, #navbar-nav {
+        flex-direction: column; 
     }
 
     .nav-item {
         height: 20%;
     }
 
-    .nav-link {
-        justify-content: space-between;
-        text-decoration: none;
+    #navbar-nav, .nav-link {
         height: 100%;
     }
 
-    header:hover .nav-link i {
+    .nav-link {
+        justify-content: space-between;
+    }
+
+    #mode-dark {
+        display: flex;
+    }
+
+    .link-text {
         margin-left: 1rem;
     }
-
-    header:hover .nav-link .link-text {
-        margin-right: 1rem;
-    }
-
+  
+    /* */
     #logo img {
         width: 80px;
     }
