@@ -12,6 +12,11 @@ body {
     color: black;
     margin: 0;
     padding: 0;
+    background-image: url(../asetts/background-top.svg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 100vh;
 }
 
 body::-webkit-scrollbar {
@@ -172,3 +177,5 @@ header {
         width: 80px;
     }
 }
+
+
