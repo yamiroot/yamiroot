@@ -1,7 +1,7 @@
 const skills = () => {
     const view = `
       <div>
-        <h1 class="u-center-text">SKILLS</h1>
+        <h1 class="u-center-text subtitle-view">SKILLS</h1>
         <p class="u-center-text">
             Front End Developer
         </p>

@@ -2,13 +2,13 @@
 const home = () => {
     const view = `
       <div class="row">
-        <div class="col-md-5 d-flex flex-column justify-content-center align-items-center">
-          <h1 class="text-center description-home">¡Hola! <span class="bx bx-tada">👋</span> <br> Mi nombre es Yamira Quispe</h1>
-          <p id="" class="text-center mt-2 ">
-              < Front End Developer />
+        <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+          <h1 id="title-home" class="text-center subtitle-view">¡Hola! <span class="bx bx-tada">👋</span> <br> Mi nombre es Yamira Quispe</h1>
+          <p id="description-home" class="text-center mt-2 font-weight-bold">
+            < Front End Developer />
           </p>
         </div>
-        <div class="col-md-7 d-flex justify-content-center align-items-center">
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
           <img id="banner" src="../src/asetts/monitor.png" alt="banner">
         </div>
       </div>

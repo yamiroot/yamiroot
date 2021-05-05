@@ -1,7 +1,7 @@
 const contact = () => {
     const view = `
       <div>
-        <h1 class="u-center-text">CONTACT</h1>
+        <h1 class="u-center-text subtitle-view">CONTACT</h1>
         <p class="u-center-text">
             Front End Developer
         </p>

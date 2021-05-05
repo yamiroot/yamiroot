@@ -1,7 +1,7 @@
 const viewError = () => {
     const view = `
       <div>
-        <h1 class="u-center-text">EROOR</h1>
+        <h1 class="u-center-text subtitle-view">EROOR</h1>
         <p class="u-center-text">
             Front End Developer
         </p>

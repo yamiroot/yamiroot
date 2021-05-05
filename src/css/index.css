@@ -1,17 +1,12 @@
-:root {
-    font-size: 16px;
-    --text-primary: #ffffff;
-    --text-secondary: #42435f;
-    --bg-primary: #555678;
-    --bg-secondary: #a9f1af;
-    --transition-speed: 600ms;
-}
+
+@import url(./root.css);
+@import url(./menunav.css);
+@import url(./home.css);
+@import url(./project.css);
 
 body {
     font-family: 'Neucha', cursive !important;
     color: black;
-    margin: 0;
-    padding: 0;
     /*background-image: url(../asetts/background-top.svg);*/
     background-position: center; 
     background-repeat: no-repeat; 
@@ -31,203 +26,13 @@ body::-webkit-scrollbar-thumb {
     background: var(--bg-secondary);
 }
 
-header {
-    position: fixed;
-    background: var(--bg-primary);
-    transition: width 200ms ease;
-}
-
-#navbar-nav {
-    list-style: none;
-}
-
-.link-text {
-    display: none;
-}
-
-.nav-link {
-    text-decoration: none;
-    filter: grayscale(100%) opacity(0.8);
-}
-
-.nav-link span, .nav-link i {
-    color: #fff;
-}
-
-.nav-link:hover {
-    background: var(--bg-secondary);
-    filter: grayscale(0%) opacity(1);
-}
-
-.nav-link:hover span, .nav-link:hover i {
-    color: #000000;
-}
-
-
-/* Small screens */
-
-@media only screen and (max-width: 600px) {
-    main {
-        margin: 0;
-    }
-
-    header {
-        bottom: 0;
-        width: 100vw;
-        height: 5rem;    
-    }
-
-    #logo, #mode-dark, .link-text {
-        display: none;
-    }
-
-    #navbar, #navbar-nav, .nav-link {
-        width: 100%;
-    }
-
-    #navbar, #navbar-nav, .nav-link, .nav-item {
-        height: 100%;    
-    }
-
-    #navbar {
-        transition: width 600ms ease;
-    }
-
-    .nav-item {
-        width: 20%;
-    }
-
-    .nav-link {
-        justify-content: center;
-        filter: grayscale(100%) opacity(0.7);
-        transition: var(--transition-speed);
-    }
-
-
-}
-
-/* Large screens */
-
-@media only screen and (min-width: 600px) {
-    header {
-        left: 0;
-        top: 0;
-        width: 5rem;
-        height: 100vh;
-        justify-content: space-between;
-    }
-
-    header:hover {
-        width: 16rem;
-    }
-
-    header:hover .link-text {
-        display: inline;
-    }
-
-    header:hover .nav-link i {
-        margin-left: 2rem;
-    }
-
-    header:hover .link-text {
-        margin: auto;
-    }
-
-    main {
-        margin-left: 5rem;
-    }
-
-    #navbar, #navbar-nav, .nav-item, .nav-link, #logo, #mode-dark {
-        width: 100%;
-        left: 0;
-    }
-
-    #navbar {
-        height: 50%;
-    }
-
-    #navbar-nav {
-        justify-content: center; 
-    }
-
-    header, #navbar-nav {
-        flex-direction: column; 
-    }
-
-    .nav-item {
-        height: 20%;
-    }
-
-    #navbar-nav, .nav-link {
-        height: 100%;
-    }
-
-    .nav-link {
-        justify-content: space-between;
-    }
-
-    #mode-dark {
-        display: flex;
-    }
-
-    .link-text {
-        margin-left: 1rem;
-    }
-
-    #banner {
-        width: 80%;
-        height: auto;
-    }
-  
-    /* */
-    .item-project {
-        width: 80%;
-        height: 200px;
-    }
-
-    .item-project img {
-        width: 100%;
-        height: 100%;
-    }
-}
-
-
-.description-home {
+.subtitle-view {
     font-family: 'Bungee Shade', cursive;
-    font-size: 40px;
     font-weight: bold;
-                color: #ffffff;
-                text-shadow:  0 0 1px #555678,
-                              -1px -1px 0 #555678,
-                              1px -1px 0 #555678,
-                              -1px 1px 0 #555678,
-                              1px 1px 0 #555678;
-}
-
-
-@media (max-width: 319px) {
-    #banner {
-        width: 80%;
-        height: auto;
-        margin-top: 2rem;
-    }
-}
-
-@media (min-width: 320px) and (max-width: 479px) {
-}
-
-@media (min-width: 480px) and (max-width: 767px) {
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-}
-
-@media (min-width: 1024px) and (max-width: 1199px) { 
-}
-
-@media (min-width: 1200px) {
-    #banner {
-        width: 80%;
-        height: auto;
-    }
+    color: #fff;
+    text-shadow:  0 0 1px #555678,
+                 -1px -1px 0 #555678,
+                  1px -1px 0 #555678,
+                 -1px 1px 0 #555678,
+                 1px 1px 0 #555678;
 }

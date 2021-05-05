@@ -1,7 +1,7 @@
 const aboutMe = () => {
     const view = `
       <div>
-        <h1 class="u-center-text">ABOUT ME</h1>
+        <h1 class="u-center-text subtitle-view">ABOUT ME</h1>
         <p class="u-center-text">
             Front End Developer
         </p>

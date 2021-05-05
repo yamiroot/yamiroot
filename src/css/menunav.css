@@ -1,0 +1,137 @@
+header {
+    position: fixed;
+    background: var(--bg-primary);
+    transition: width 200ms ease;
+}
+
+#navbar-nav {
+    list-style: none;
+}
+
+.link-text {
+    display: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    filter: grayscale(100%) opacity(0.8);
+}
+
+.nav-link span, .nav-link i {
+    color: #fff;
+}
+
+.nav-link:hover {
+    background: var(--bg-secondary);
+    filter: grayscale(0%) opacity(1);
+}
+
+.nav-link:hover span, .nav-link:hover i {
+    color: #000000;
+}
+
+
+/* Small screens */
+
+@media only screen and (max-width: 600px) {
+    header {
+        bottom: 0;
+        width: 100vw;
+        height: 5rem;    
+    }
+
+    #logo, #mode-dark, .link-text {
+        display: none;
+    }
+
+    #navbar, #navbar-nav, .nav-link {
+        width: 100%;
+    }
+
+    #navbar, #navbar-nav, .nav-link, .nav-item {
+        height: 100%;    
+    }
+
+    #navbar {
+        transition: width 600ms ease;
+    }
+
+    .nav-item {
+        width: 20%;
+    }
+
+    .nav-link {
+        justify-content: center;
+        filter: grayscale(100%) opacity(0.7);
+        transition: var(--transition-speed);
+    }
+}
+
+/* Large screens */
+
+@media only screen and (min-width: 600px) {
+    header {
+        left: 0;
+        top: 0;
+        width: 5rem;
+        height: 100vh;
+        justify-content: space-between;
+    }
+
+    header:hover {
+        width: 16rem;
+    }
+
+    header:hover .link-text {
+        display: inline;
+    }
+
+    header:hover .nav-link i {
+        margin-left: 2rem;
+    }
+
+    header:hover .link-text {
+        margin: auto;
+    }
+
+    main {
+        margin-left: 5rem;
+    }
+
+    #navbar, #navbar-nav, .nav-item, .nav-link, #logo, #mode-dark {
+        width: 100%;
+        left: 0;
+    }
+
+    #navbar {
+        height: 50%;
+    }
+
+    #navbar-nav {
+        justify-content: center; 
+    }
+
+    header, #navbar-nav {
+        flex-direction: column; 
+    }
+
+    .nav-item {
+        height: 20%;
+    }
+
+    #navbar-nav, .nav-link {
+        height: 100%;
+    }
+
+    .nav-link {
+        justify-content: space-between;
+    }
+
+    #mode-dark {
+        display: flex;
+    }
+
+    .link-text {
+        margin-left: 1rem;
+    }
+}
