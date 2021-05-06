@@ -35,3 +35,7 @@ body::-webkit-scrollbar-thumb {
                  -1px 1px 0 #555678,
                  1px 1px 0 #555678;
 }
+
+.text-justify {
+    text-align: justify;
+}
