@@ -4,7 +4,7 @@ header {
     transition: width 200ms ease;
 }
 
-#navbar-nav {
+.list-style {
     list-style: none;
 }
 
