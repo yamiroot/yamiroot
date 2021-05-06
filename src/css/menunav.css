@@ -30,10 +30,22 @@ header {
     color: #000000;
 }
 
+#logo {
+    width: 70%;
+}
+
+#logo img {
+    width: 100%;
+}
+
+header:hover #logo {
+    width: 45%;
+}
+
 
 /* Small screens */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 599px) {
     header {
         bottom: 0;
         width: 100vw;
