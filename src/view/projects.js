@@ -3,7 +3,7 @@ const projects = () => {
       <div class="container bg-danger">
         <div class="row">
           <div class="col-md-12">
-            <h1 id="subtitle-projects" class="subtitle-view text-center">Mis proyectos</h1>
+            <h1 id="subtitle-projects" class="subtitle-view text-center subtitle-view-spacing">Mis proyectos</h1>
           </div>
         </div>
         <div class="row">
@@ -20,7 +20,7 @@ const projects = () => {
         </div>
         <div class="row">
           <div class="col-md-12 d-flex justify-content-center">
-            <div class="item-last-project d-flex justify-content-center align-items-center bg-info mt-3"> 
+            <div class="item-last item-last-project d-flex justify-content-center align-items-center bg-info mt-3"> 
               <img class="img-item-project" src="../src/asetts/demo-marked-links.png" alt="memory-game">
             </div>
           </div>

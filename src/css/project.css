@@ -9,7 +9,7 @@
  ================ */
 
 @media (max-width: 319px) {
-    #subtitle-projects {
+    .subtitle-view-spacing {
         margin-top: 1.5rem;
     }
 
@@ -18,13 +18,13 @@
         height: 8rem;
     }
 
-    .item-last-project {
+    .item-last {
         margin-bottom: 7rem;
     }
 }
 
 @media (min-width: 320px) and (max-width: 479px) {
-    #subtitle-projects {
+    .subtitle-view-spacing {
         margin-top: 1.5rem;
     }
 
@@ -33,7 +33,7 @@
         height: 8.5rem;
     }
 
-    .item-last-project {
+    .item-last {
         margin-bottom: 7.3rem;
     }
 }
@@ -41,23 +41,23 @@
 /* ======= Media especial ======== */
 
 @media (min-width: 480px) and (max-width: 600px) {
-    #subtitle-projects {
+    .subtitle-view-spacing {
         margin-top: 2rem;
     }
 
-    .item-last-project {
+    .item-last {
         margin-bottom: 8rem;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    #subtitle-projects {
+    .subtitle-view-spacing {
         margin-bottom: 1rem;
     }
 }
 
 @media only screen and (min-width: 600px) {
-    #subtitle-projects {
+    .subtitle-view-spacing {
         margin-bottom: 2rem;
     }
 }
