@@ -8,14 +8,14 @@ const home = () => {
             < Front End Developer />
           </p>
         </div>
-        <div class="col-md-6 d-flex justify-content-center align-items-center">
+        <div class="col-md-6 d-flex justify-content-center align-items-center item-last">
           <img id="banner" src="../src/asetts/monitor.png" alt="banner">
         </div>
       </div>
       `;
   
     const sectionView = document.createElement('section');
-    sectionView.className = 'container mt-5';
+    sectionView.className = 'container mx-auto mt-5 bg-success';
     sectionView.innerHTML = view;
   
     return sectionView;

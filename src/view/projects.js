@@ -1,6 +1,6 @@
 const projects = () => {
     const view = `
-      <div class="container bg-danger">
+      <div class="container">
         <div class="row">
           <div class="col-md-12">
             <h1 id="subtitle-projects" class="subtitle-view text-center subtitle-view-spacing">Mis proyectos</h1>

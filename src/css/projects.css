@@ -50,6 +50,26 @@
     }
 }
 
+@media (min-width: 600px) and (max-width: 767px) {
+    .subtitle-view-spacing {
+        margin-top: 2rem;
+    }
+
+    .item-last {
+        margin-bottom: 2.3rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .subtitle-view-spacing {
+        margin-top: 2rem;
+    }
+
+    .item-last {
+        margin-bottom: 2rem;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .subtitle-view-spacing {
         margin-bottom: 1rem;
@@ -58,7 +78,7 @@
 
 @media only screen and (min-width: 600px) {
     .subtitle-view-spacing {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 }
 
@@ -69,6 +89,10 @@
     .item-project, .item-last-project {
         width: 75%;
         height: 9rem;
+    }
+
+    .subtitle-view-spacing {
+        margin-top: 2rem;
     }
 }
 

@@ -1,6 +1,6 @@
 const aboutMe = () => {
     const view = `
-      <div id="container-about" class="bg-danger pr-3">
+      <div class="w-100">
         <div class="row">
           <div class="col-md-12">
             <h1 id="subtitle-aboutme" class="text-center subtitle-view subtitle-view-spacing">ABOUT ME</h1>
@@ -11,10 +11,10 @@ const aboutMe = () => {
             <ul class="list-style">
               <li class="mb-2">
                 <div class="d-flex">
-                  <div class="bg-info me-2 ms-n4">
+                  <div class="me-2 ms-n4 text-paragraph">
                     👋 
                   </div>
-                  <div class="bg-success text-justify me-2">
+                  <div class="text-justify me-2 text-paragraph">
                     ¡Hola! Mi nombre es Yamira Quispe, soy front end developer, estudiante de Ingeniería Informática 
                     y presidenta del Capítulo Estudiantil IEEE Computer Society UNFV.
                   </div>
@@ -22,10 +22,10 @@ const aboutMe = () => {
               </li>
               <li class="mb-2">
                 <div class="d-flex">
-                  <div class="bg-info me-2 ms-n4">
+                  <div class="me-2 ms-n4 text-paragraph">
                     👨‍🎓  
                   </div>
-                  <div class="bg-success text-justify me-2">
+                  <div class="text-justify me-2 text-paragraph">
                     Mi interés en programación empezó gracias a mi carrera universitaria. El primer lenguaje que 
                     aprendí fue C++. Paralelo a ello tuve la oportunidad de participar en una hackaton interna en mi 
                     centro de estudios y para mi suerte, mi grupo y yo perdimos. Fue ahí cuando me propuse aprender 
@@ -35,10 +35,10 @@ const aboutMe = () => {
               </li>
               <li class="mb-2">
                 <div class="d-flex">
-                  <div class="bg-info me-2 ms-n4">
+                  <div class="me-2 ms-n4 text-paragraph">
                     📚  
                   </div>
-                  <div class="bg-success text-justify me-2">
+                  <div class="text-justify me-2 text-paragraph">
                     Así fue como decidí especializarme en algo antes de egresar, postulé a Laboratoria y felizmente 
                     me fue bien. Aunque no fue nada fácil esta etapa de aprendizaje, porque más allá de la dificultad 
                     de los proyectos que realizaba en el bootcamp, también me encontraba laborando medio tiempo en mi 
@@ -49,10 +49,10 @@ const aboutMe = () => {
               </li>
               <li class="mb-2">
                 <div class="d-flex">
-                  <div class="bg-info me-2 ms-n4">
+                  <div class="me-2 ms-n4 text-paragraph">
                     🎯  
                   </div>
-                  <div class="bg-success text-justify me-2">
+                  <div class="text-justify me-2 text-paragraph">
                     Soy una persona que siempre se moviliza bajo una meta. Actualmente me encuentro aprendiendo el 
                     idioma Inglés. También tengo interés en aprender sobre tecnologías back end y RPA. Me gustaría a 
                     futuro poder laborar en una importante empresa del sector tech.
@@ -61,10 +61,10 @@ const aboutMe = () => {
               </li>
               <li class="mb-2">
                 <div class="d-flex">
-                  <div class="bg-info me-2 ms-n4">
+                  <div class="me-2 ms-n4 text-paragraph">
                     🤝  
                   </div>
-                  <div class="bg-success text-justify me-2">
+                  <div class="text-justify me-2 text-paragraph">
                     Te comparto mi CV para que puedas saber más sobre mí.
                   </div>
                 </div>
@@ -74,14 +74,15 @@ const aboutMe = () => {
         </div>
         <div class="row item-last">
           <div class="col-md-12 d-flex justify-content-center">
-            <button type="button" class="btn btn-lg btn-outline-success">Ver CV</button>
+            <button id="button-cv" type="button" class="btn btn-lg btn-outline-success mt-1">Ver CV</button>
           </div>
         </div>
       </div>
       `;
   
     const sectionView = document.createElement('section');
-    sectionView.className = '';
+    sectionView.id = 'container-about';
+    sectionView.className = 'mx-auto';
     sectionView.innerHTML = view;
   
     return sectionView;
