@@ -3,6 +3,8 @@
 @import url(./home.css);
 @import url(./projects.css);
 @import url(./aboutme.css);
+@import url(./skills.css);
+
 
 body {
     font-family: 'Neucha', cursive !important;
