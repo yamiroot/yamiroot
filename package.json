@@ -9,7 +9,8 @@
     "htmlhint": "htmlhint src/*.html",
     "stylelint": "stylelint --aei src/**/*.css",
     "eslint": "eslint --ext .js src/",
-    "pretest": "npm run htmlhint && npm run eslint && npm run stylelint"
+    "pretest": "npm run htmlhint && npm run eslint && npm run stylelint",
+    "tailwind": "npx tailwindcss-cli@latest build ./src/libraries/style_tailwind.css -o ./src/libraries/tailwind.css"
   },
   "repository": {
     "type": "git",
