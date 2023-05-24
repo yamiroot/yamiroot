@@ -14,8 +14,8 @@ Extracto de un poema que me gusta mucho:
 
 Algunos datos sobre mí:
 
-- 🔭 Actualmente estoy trabajando en una empresa de logística.
-- 🌱 Actualmente estoy aprendiendo Power Bi.
+- 🔭 Actualmente me encuentro buscando nuevas oportunidades laborales.
+- 🌱 Actualmente estoy aprendiendo herramientas del stack de Ciencia de Datos.
 - 👯 Sería un lujo colaborar en proyectos de data.
 - 💬 Pregúntame sobre front end, RPA.
 - 📫 Cómo contactar conmigo: Twitter: @buscoanemo, Instagram: @yamiroot
