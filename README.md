@@ -5,13 +5,14 @@ El diminutivo de mi nombre es Yami. Conocí la programación en el segundo año 
 Mi vida laboral empezó como front end y luego como developer RPA; aunque nunca me vi en el área de data, actualmente tengo interés en aprender sobre Data Science. Sigo en el camino de encontrar el área de la que quiero vivir. 
 
 Extracto de un poema que me gusta mucho:
+´´´
                                                        << Caminante, no hay camino,
                                                           se hace camino al andar.
                                                           Al andar se hace el camino,
                                                           y al volver la vista atrás
                                                           se ve la senda que nunca
                                                           se ha de volver a pisar. >>
-
+´´´
 
 Algunos datos sobre mí:
 
