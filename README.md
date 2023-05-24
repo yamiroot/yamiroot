@@ -20,7 +20,7 @@ Algunos datos sobre mí:
 - 💬 Pregúntame sobre front end, RPA.
 - 📫 Cómo contactar conmigo: Twitter: @buscoanemo, Instagram: @yamiroot
 - 😄 Pronombres: Yami, root, yamiroot
-- ⚡ Dato curioso: Me gustan los dinos. En mis ratos práctico danza clásica.
+- ⚡ Dato curioso: Me gustan los dinos 🦖 En mis ratos libres practico danza clásica 🩰
 
 
 Una frase para despedirme:
