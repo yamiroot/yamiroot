@@ -4,24 +4,15 @@ El diminutivo de mi nombre es Yami. Conocí la programación en el segundo año 
 
 Mi vida laboral empezó como front end y luego como developer RPA; aunque nunca me vi en el área de data, actualmente tengo interés en aprender sobre Data Science. Sigo en el camino de encontrar el área de la que quiero vivir. 
 
-Extracto de un poema que me gusta mucho:
->                                                     << Caminante, no hay camino,
->                                                         se hace camino al andar.
->                                                         Al andar se hace el camino,
->                                                         y al volver la vista atrás
->                                                         se ve la senda que nunca
->                                                         se ha de volver a pisar. >>
-
 Algunos datos sobre mí:
 
 - 🔭 Actualmente me encuentro buscando nuevas oportunidades laborales.
 - 🌱 Actualmente estoy aprendiendo herramientas del stack de Ciencia de Datos.
 - 👯 Sería un lujo colaborar en proyectos de data.
 - 💬 Pregúntame sobre front end, RPA.
-- 📫 Cómo contactar conmigo: Twitter: @buscoanemo, Instagram: @yamiroot
+- 📫 Cómo contactar conmigo: Twitter: @buscoanemo
 - 😄 Pronombres: Yami, root, yamiroot
-- ⚡ Dato curioso: Me gustan los dinos 🦖 En mis ratos libres practico danza clásica 🩰
+- ⚡ Dato curioso: Me gustan los dinos 🦖 
 
-
-Una frase para despedirme:
+Mi frase favorita dev es:
 >                    << Si el médico me dijera que me quedan seis minutos de vida; simplemente, teclearía más rápido. >>
