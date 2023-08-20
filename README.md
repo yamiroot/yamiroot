@@ -1,6 +1,6 @@
 ### Hola a todos 👋
 
-El diminutivo de mi nombre es Yami. Conocí la programación en el segundo año de mi carrera. Sufrí mucho en mis primeros pasos, no entendía como funcionaba un lenguaje de programación. Un buen día, me decidí estudiar "Fundamentos de programación" y desde ahí todo cayó por su propio peso.
+El diminutivo de mi nombre es Yami. Conocí la programación en el segundo año de mi carrera. Sufrí mucho en mis primeros pasos, no entendía como funcionaba un lenguaje de programación. Un buen día decidí estudiar "Fundamentos de programación" y desde ahí todo me fue mejor.
 
 Mi vida laboral empezó como front end y luego como developer RPA; aunque nunca me vi en el área de data, actualmente tengo interés en aprender sobre Data Science. Sigo en el camino de encontrar el área de la que quiero vivir. 
 
