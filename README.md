@@ -14,5 +14,5 @@ Algunos datos sobre mí:
 - 😄 Pronombres: Yami, root, yamiroot
 - ⚡ Dato curioso: Me gustan los dinos 🦖 
 
-Mi frase favorita dev es:
+Mi frase dev favorita es:
 >                    << Si el médico me dijera que me quedan seis minutos de vida; simplemente, teclearía más rápido. >>
